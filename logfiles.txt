@@ -1,0 +1,79 @@
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:56.759867
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:56.781670
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:57.402396
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:57.426424
+rush.jpg with ssim 0.7286 was detected in camera 1 at time 2024-11-15 13:12:58.257454
+rush.jpg with ssim 0.7286 was detected in camera 1 at time 2024-11-15 13:12:58.274092
+rush.jpg with ssim 0.7312 was detected in camera 1 at time 2024-11-15 13:12:58.879487
+rush.jpg with ssim 0.7312 was detected in camera 1 at time 2024-11-15 13:12:58.914874
+rush.jpg with ssim 0.7433 was detected in camera 1 at time 2024-11-15 13:12:59.403517
+rush.jpg with ssim 0.7433 was detected in camera 1 at time 2024-11-15 13:12:59.425080
+rush.jpg with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:12:59.949928
+rush.jpg with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:12:59.964261
+Unknown with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:13:00.635039
+Unknown with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:13:00.647346
+rush.jpg with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.201358
+rush.jpg with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.208197
+Unknown with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.788219
+Unknown with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.798053
+rush.jpg with ssim 0.7459 was detected in camera 1 at time 2024-11-15 13:13:02.297313
+rush.jpg with ssim 0.7459 was detected in camera 1 at time 2024-11-15 13:13:02.316794
+rush.jpg with ssim 0.7292 was detected in camera 1 at time 2024-11-15 13:13:03.009384
+rush.jpg with ssim 0.7292 was detected in camera 1 at time 2024-11-15 13:13:03.018974
+rush.jpg with ssim 0.7768 was detected in camera 1 at time 2024-11-15 13:13:03.440288
+rush.jpg with ssim 0.7768 was detected in camera 1 at time 2024-11-15 13:13:03.457194
+rush.jpg with ssim 0.8306 was detected in camera 1 at time 2024-11-15 13:13:03.879651
+rush.jpg with ssim 0.8306 was detected in camera 1 at time 2024-11-15 13:13:03.910122
+rush.jpg with ssim 0.7445 was detected in camera 1 at time 2024-11-15 13:13:04.417213
+rush.jpg with ssim 0.7445 was detected in camera 1 at time 2024-11-15 13:13:04.436321
+rush.jpg with ssim 0.7039 was detected in camera 1 at time 2024-11-15 13:13:05.041196
+rush.jpg with SSIM 0.7328 was detected on camera 1 at 2024-11-15 13:15:17.674398
+rush.jpg with SSIM 0.7328 was detected on camera 1 at 2024-11-15 13:15:17.717299
+rush.jpg with SSIM 0.75 was detected on camera 1 at 2024-11-15 13:15:18.171203
+rush.jpg with SSIM 0.75 was detected on camera 1 at 2024-11-15 13:15:18.190065
+rush.jpg with SSIM 0.8019 was detected on camera 1 at 2024-11-15 13:15:18.640556
+rush.jpg with SSIM 0.8019 was detected on camera 1 at 2024-11-15 13:15:18.654813
+rush.jpg with SSIM 0.6989 was detected on camera 1 at 2024-11-15 13:15:21.322180
+rush.jpg with SSIM 0.6989 was detected on camera 1 at 2024-11-15 13:15:21.341088
+rush.jpg with SSIM 0.7481 was detected on camera 1 at 2024-11-15 13:15:21.830192
+rush.jpg with SSIM 0.7481 was detected on camera 1 at 2024-11-15 13:15:21.839387
+rush.jpg with SSIM 0.7745 was detected on camera 1 at 2024-11-15 13:15:22.307608
+rush.jpg with SSIM 0.7745 was detected on camera 1 at 2024-11-15 13:15:22.328399
+rush.jpg with SSIM 0.7597 was detected on camera 1 at 2024-11-15 13:15:23.305494
+rush.jpg with SSIM 0.7597 was detected on camera 1 at 2024-11-15 13:15:23.311788
+rush.jpg with SSIM 0.8067 was detected on camera 1 at 2024-11-15 13:15:23.738407
+rush.jpg with SSIM 0.8067 was detected on camera 1 at 2024-11-15 13:15:23.758517
+rush.jpg with SSIM 0.8273 was detected on camera 1 at 2024-11-15 13:15:24.213215
+rush.jpg with SSIM 0.8273 was detected on camera 1 at 2024-11-15 13:15:24.220624
+rush.jpg with SSIM 0.7469 was detected on camera 1 at 2024-11-15 13:15:24.667128
+rush.jpg with SSIM 0.7469 was detected on camera 1 at 2024-11-15 13:15:24.683808
+rush.jpg with SSIM 0.7181 was detected on camera 1 at 2024-11-15 13:15:25.101399
+rush.jpg with SSIM 0.7181 was detected on camera 1 at 2024-11-15 13:15:29.458171
+rush.jpg with SSIM 0.7709 was detected on camera 1 at 2024-11-15 13:15:33.978089
+rush.jpg with SSIM 0.7709 was detected on camera 1 at 2024-11-15 13:15:38.067216
+rush.jpg with SSIM 0.7796 was detected on camera 1 at 2024-11-15 13:15:43.219444
+rush.jpg with SSIM 0.7796 was detected on camera 1 at 2024-11-15 13:15:50.650908
+rush.jpg with SSIM 0.7561 was detected on camera 1 at 2024-11-15 13:15:55.276113
+rush.jpg with SSIM 0.7561 was detected on camera 1 at 2024-11-15 13:16:00.219504
+rush.jpg with SSIM 0.761 was detected on camera 1 at 2024-11-15 14:04:45.525331
+rush.jpg with SSIM 0.761 was detected on camera 1 at 2024-11-15 14:04:45.535999
+rush.jpg with SSIM 0.6522 was detected on camera 1 at 2024-11-15 14:04:46.770229
+rush.jpg with SSIM 0.6522 was detected on camera 1 at 2024-11-15 14:04:46.786414
+rush.jpg with SSIM 0.6865 was detected on camera 1 at 2024-11-15 14:04:48.552441
+rush.jpg with SSIM 0.6865 was detected on camera 1 at 2024-11-15 14:04:48.562919
+rush.jpg with SSIM 0.7259 was detected on camera 1 at 2024-11-15 14:04:49.109488
+rush.jpg with SSIM 0.7259 was detected on camera 1 at 2024-11-15 14:04:49.123843
+rush.jpg with SSIM 0.7399 was detected on camera 1 at 2024-11-15 14:04:49.792465
+rush.jpg with SSIM 0.7399 was detected on camera 1 at 2024-11-15 14:04:49.812119
+rush.jpg with SSIM 0.7507 was detected on camera 1 at 2024-11-15 14:04:51.029994
+rush.jpg with SSIM 0.7507 was detected on camera 1 at 2024-11-15 14:04:51.046519
+rush.jpg with SSIM 0.7065 was detected on camera 1 at 2024-11-15 14:04:51.696226
+rush.jpg with SSIM 0.7065 was detected on camera 1 at 2024-11-15 14:04:51.704440
+rush.jpg with SSIM 0.8475 was detected on camera 1 at 2024-11-15 14:04:52.307472
+rush.jpg with SSIM 0.8475 was detected on camera 1 at 2024-11-15 14:04:52.323997
+rush.jpg with SSIM 0.7797 was detected on camera 1 at 2024-11-15 14:04:53.200946
+rush.jpg with SSIM 0.7797 was detected on camera 1 at 2024-11-15 14:04:53.218853
+rush.jpg with SSIM 0.694 was detected on camera 1 at 2024-11-15 14:04:53.930415
+rush.jpg with SSIM 0.694 was detected on camera 1 at 2024-11-15 14:04:53.941165
+rush.jpg with SSIM 0.6907 was detected on camera 1 at 2024-11-15 14:04:55.143165
+rush.jpg with SSIM 0.6907 was detected on camera 1 at 2024-11-15 14:05:04.375898

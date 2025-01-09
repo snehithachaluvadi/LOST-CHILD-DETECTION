@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lighthouse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        background-image: url("background.jpeg"); /* Specify the path to your background image */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+        font-family: Arial, sans-serif; /* Use Arial or any preferred font */
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Your existing CSS styles go here */
+    </style>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="website_replication.html"><img src="light4.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-window-close" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="website_replication.html">HOME</a></li>
+            <li>
+              <ul>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">CASE</a>
+                  <div class="dropdown-content">
+                    <a href="webite_replication_CASEs.html">Start New Cases</a>
+                    <a href="website_replication_CASE1.html">On going Cases</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li><a href="website_replication_about_us.html">ABOUT</a></li>
+
+            <li><a href="website_replication_contact_us.html">CONTACTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-ellipsis-v" onclick="showmenu()"></i>
+      </nav>
+      <h1>Ongoing Case</h1>
+    </section>
+    <!----------CASEs----------->
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Missing Child Report</title>
+      <link rel="stylesheet" href="on_going.css" />
+    </head>
+    <body>
+      <div class="container">
+        <div class="info-box">
+          <div class="left-section">
+            <img src="rush.jpg" alt="Child Image" />
+          </div>
+          <div class="right-section">
+            <p>Name:Rushma</p>
+            <p>Location: Chennai</p>
+            <p>Date: 23-08-24</p>
+          </div>
+        </div>
+        <div class="action-section">
+          <div class="is-child-options">
+            <p class="is-child-label">Is this your child?</p>
+            <label for="is_child_yes">Yes</label>
+            <input type="radio" id="is_child_yes" name="is_child" value="yes" />
+            <label for="is_child_no">No</label>
+            <input type="radio" id="is_child_no" name="is_child" value="no" />
+          </div>
+          <button type="button" id="contact_police_btn">Contact Police</button>
+        </div>
+      </div>
+    </body>
+
+    <!------Footer------->
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        We are a dedicated team committed to the relentless pursuit of reuniting
+        lost children with their families.<br />Our mission is to leverage
+        technology and community engagement to ensure every child's safety.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-discord"></i>
+      </div>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

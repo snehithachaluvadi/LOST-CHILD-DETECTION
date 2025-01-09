@@ -1,0 +1,8 @@
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:56.760857
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:56.781670
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:57.402396
+Unknown with ssim 1 was detected in camera 1 at time 2024-11-15 13:12:57.427418
+Unknown with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:13:00.635039
+Unknown with ssim 0.7418 was detected in camera 1 at time 2024-11-15 13:13:00.648566
+Unknown with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.789567
+Unknown with ssim 0.7144 was detected in camera 1 at time 2024-11-15 13:13:01.798053

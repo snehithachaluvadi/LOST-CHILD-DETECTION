@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lighthouse</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="website_replication.html"><img src="light4.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-window-close" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="website_replication.html">HOME</a></li>
+            <li>
+              <ul>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">CASE</a>
+                  <div class="dropdown-content">
+                    <a href="webite_replication_CASEs.html">Start New Cases</a>
+                    <a href="website_replication_CASE1.html">On going Cases</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li><a href="website_replication_about_us.html">ABOUT</a></li>
+            <li><a href="website_replication_contact_us.html">CONTACTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-ellipsis-v" onclick="showmenu()"></i>
+      </nav>
+      <div class="text_box">
+        <h1>Little Lighthouse</h1>
+        <p>
+          "Every lost child is a call to action for our collective humanity. Let
+          us use every resource available, <br />from technology to community
+          vigilance, to ensure that no child remains lost for long."
+        </p>
+        <a href="website_replication_contact_us.html" class="main_btn"
+          >Visit us to know more</a
+        >
+      </div>
+    </section>
+
+    <!----------CASE----------->
+    <section class="CASE">
+      <h1>Upcoming Cases and Active Cases</h1>
+      <p>
+        Dynamic environment with fresh investigations and ongoing case
+        management
+      </p>
+      <div class="row">
+        <!-- <div class="CASE-col">
+          <h3>New Case</h3>
+          <p>Fimd your missing child</p>
+          <button class="new-button">Start new case</button>
+        </div> -->
+        <div class="CASE-col">
+          <h3>New Case</h3>
+          <p>Find your missing child</p>
+          <button class="new-button" onclick="redirectToPage()">
+            Start new case
+          </button>
+        </div>
+
+        <script>
+          function redirectToPage() {
+            window.location.href = "webite_replication_CASEs.html"; // Redirect to the desired page
+          }
+        </script>
+
+        <!-- <div class="CASE-col">
+          <h3>Ongoing cases</h3>
+          <p>No of cases currently dealing with : 0.</p>
+          <button class="new-button">Ongoing cases</button>
+        </div> -->
+        <div class="CASE-col">
+          <h3>Ongoing cases</h3>
+          <p>No of cases currently dealing with: 0.</p>
+          <button class="new-button" onclick="redirectToOngoingCases()">
+            Ongoing cases
+          </button>
+        </div>
+
+        <script>
+          function redirectToOngoingCases() {
+            window.location.href = "website_replication_CASE1.html"; // Redirect to the desired page
+          }
+        </script>
+      </div>
+    </section>
+    <!---------testimonals------------>
+    <section class="testimonals">
+      <h1>what our client says</h1>
+      <p>We are here to assist in locating lost children, always</p>
+      <div class="row">
+        <div class="testimonals-col">
+          <img src="aunt1.jpeg" />
+          <div>
+            <p>
+              The team's swift action and unwavering commitment led to the safe
+              return of our child. We are forever grateful for their exceptional
+              efforts
+            </p>
+            <h3>Maine</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonals-col">
+          <img src="uncle1.jpeg" />
+          <div>
+            <p>
+              Our heartfelt thanks to the team for their dedication and
+              expertise in finding our missing child. Their support during this
+              difficult time was invaluable
+            </p>
+            <h3>shamith</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------Call to action------->
+    <section class="cta">
+      <h1>For more Information regarding finding the lost child contact us</h1>
+      <a href="website_replication_contact_us.html" class="main_btn"
+        >CONTACT US</a
+      >
+    </section>
+
+    <!------Footer------->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        We are a dedicated team committed to the relentless pursuit of reuniting
+        lost children with their families. <br />
+        Our mission is to leverage technology and community engagement to ensure
+        every child's safety
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-discord"></i>
+      </div>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

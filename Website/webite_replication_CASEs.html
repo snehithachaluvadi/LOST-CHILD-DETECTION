@@ -1,0 +1,156 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lighthouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        background-image: url('background.jpeg'); 
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+        font-family: Arial, sans-serif; /* Use Arial or any preferred font */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Your existing CSS styles go here */
+</style>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="website_replication.html"><img src="light4.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="website_replication.html">HOME</a></li>
+                    <li><ul>
+                        <li class="dropdown">
+                        <a href="#" class="dropbtn">CASE</a>
+                        <div class="dropdown-content">
+                            <a href="webite_replication_CASEs.html">Start New Cases</a>
+                            <a href="website_replication_CASE1.html">On going Cases</a>
+                        </div>
+                        </li>
+                    </ul></li>
+                    <li><a href="website_replication_about_us.html">ABOUT</a></li>
+
+                    <li><a href="website_replication_contact_us.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-ellipsis-v" onclick="showmenu()"></i>
+        </nav>
+        <h1>New Cases</h1>
+    
+
+    </section>
+
+    <!----------CASEs----------->
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="new_start.css">
+    </head>
+    <body>
+        
+    <div class="container">
+        <form action="#" method="post" id="myForm">
+            <div class="form-group">
+                <label for="pic">Picture:</label>
+                <input type="file" id="pic" name="pic">
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="adhar">Adhar Number:</label>
+                <input type="text" id="adhar" name="adhar" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <button id="upload_image" type="submit" class="submit-btn"><a href="registred.html">Submit</a></button>
+        </form>
+        <script>
+            document.getElementById("myForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent form submission
+            isLoggedIn = false;
+            var file_Data = document.getElementById("pic");
+            console.log(file_Data.files)
+                // Perform login validation here (replace this with your actual validation logic)
+            
+                const formData =new FormData();
+                formData.append("file",file_Data.files[0])
+                var apiUrl = 'http://127.0.0.1:5000/upload_image/';
+              async function userLogin(){
+                
+                const result = await fetch(apiUrl,{
+                  method:'POST',
+                  body: formData
+                })
+                console.log(result.status)
+                if(result.status==200){
+                  isLoggedIn = true;
+                }
+                // if (isLoggedIn) {
+                //     // Redirect to the home page after successful login
+                //     window.location.href = "website_replication.html"; // Replace "index.html" with your home page URL
+                // } else {
+                //     // Handle unsuccessful login (display error message or perform other actions)
+                //     alert("Invalid username or password. Please try again.");
+                // }
+              }
+              userLogin()
+                // For simplicity, let's assume the login is successful
+                // var isLoggedIn = true; // Change this to false if login fails
+            
+                
+            });
+            </script>
+    </div>
+    </body>
+    </html>
+
+<!------Footer------->
+<section class="footer">
+    <h4>About us</h4>
+    <p style="color:black">We are a dedicated team committed to the relentless pursuit of reuniting lost children with their families.<br>Our mission is to leverage technology and community engagement to ensure every child's safety.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-discord"></i>
+    </div>
+</section>
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right='0';
+        }
+        function hidemenu(){
+            navlinks.style.right='-200px';
+        }
+
+    </script>
+
+</body>
+</html>

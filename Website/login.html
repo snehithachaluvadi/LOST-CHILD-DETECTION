@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page with Video Background</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+      #video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        background-size: cover;
+        transition: 1s opacity;
+      }
+      .login-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+      }
+      .login-container h2 {
+        margin-bottom: 20px;
+        color: #141cad;
+      }
+      .login-container input[type="text"],
+      .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #080c58;
+        color: white;
+        cursor: pointer;
+      }
+      .login-container input[type="submit"]:hover {
+        background-color: #0a033c;
+      }
+      .additional-links {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #fff;
+      }
+      .additional-links a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay loop muted id="video-background">
+      <source src="background - Copy.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <input type="submit" value="Login" />
+      </form>
+      <div class="additional-links">
+        <a href="#">Create One</a>
+        <a href="#">Forgot Password?</a>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          isLoggedIn = false;
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+          const data = {
+            username: username,
+            password: password,
+          };
+          var apiUrl = "http://127.0.0.1:5000/login/";
+          async function userLogin() {
+            const result = await fetch(apiUrl, {
+              headers: { "Content-Type": "application/json" },
+              method: "POST",
+              body: JSON.stringify(data),
+            });
+            console.log(result.status);
+            if (result.status == 200) {
+              isLoggedIn = true;
+            }
+            if (!isLoggedIn) {
+              window.location.href = "website_replication.html";
+            } else {
+              alert("Invalid username or password. Please try again.");
+            }
+          }
+          userLogin();
+        });
+    </script>
+  </body>
+</html>

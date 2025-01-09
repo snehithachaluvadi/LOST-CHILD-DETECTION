@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fcf7f7;
+    border-radius: 10px;
+    color: black;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #f6f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.info-box .left-section {
+    flex: 1;
+    color: black;
+}
+
+.info-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    color: black;
+}
+
+.info-box .right-section {
+    flex: 1;
+    text-align: right;
+    color: #c02e2ee6;
+
+}
+.container .info-box .right-section .p{
+color: #171717;
+}
+
+.action-section {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.action-section .is-child-options {
+    display: inline-block;
+    text-align: right; /* Aligning the options to the right */
+    margin-bottom: 10px; /* Adding some bottom margin for spacing */
+    color: black;
+}
+
+.action-section .is-child-label {
+    margin-bottom: 5px;
+    color: black;
+    
+}
+
+.action-section .is-child-options label {
+    margin-right: 3px;
+    color: rgb(28, 27, 27);
+}
+
+.action-section button {
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #171717;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-section button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
