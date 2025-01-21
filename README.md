@@ -7,8 +7,7 @@ A perceptual metric used to measure the similarity between two images. It is par
 
 ## FACIAL RECOGNITION
 The face_recognition library provides methods to detect faces within images or
-video frames. It utilizes pre-trained face detection models based on Histogram
-of Oriented Gradients (HOG) and Convolutional Neural Networks (CNN). This
+video frames. It utilizes pre-trained face detection models based on Convolutional Neural Networks (CNN). This
 library captures the landmarks of the face (like distance between the eyes, lips,
 distance of nose etc..). These landmarks are crucial for tasks like aligning faces,
 measuring facial features, and improving face recognition accuracy. It utilizes a
@@ -17,3 +16,31 @@ This model extracts unique facial features, often referred to as face
 embeddings, which represent each face in a high-dimensional space. By
 comparing these embeddings, the library can determine whether two faces
 belong to the same person or not.
+
+## FRONTEND
+### HTML - HTML, or Hyper Text Markup Language, serves as the
+backbone of web development, providing the structure and organization
+for content on the internet. Using a system of tags and attributes, HTML
+defines the elements of a webpage, including text, images, links, and
+more. It acts as the foundation upon which websites are built, allowing
+developers to create structured and semantically meaningful documents
+that are accessible and easily interpreted by web browsers.
+
+### CSS - CSS, short for Cascading Style Sheets, complements HTML by
+adding style and visual presentation to web pages. With CSS, developers
+can control the layout, design, and appearance of HTML elements,
+including aspects such as colours, fonts, spacing, and responsiveness.
+By separating style from content, CSS promotes cleaner and more
+maintainable code, allowing for consistent design across multiple web
+pages and devices.
+
+### JAVA SCRIPT - JavaScript, often referred to as the "language of the web,"
+is a versatile programming language that adds interactivity and dynamic
+behaviour to websites. As a client-side scripting language, JavaScript
+executes code directly within the web browser, enabling tasks such as
+form validation, animations, and event handling. It interacts seamlessly
+with HTML and CSS, allowing developers to create engaging user
+experiences and responsive web applications that adapt to user input and
+device capabilities. JavaScript's flexibility and ubiquity make it an
+essential tool for modern web development, powering many of the
+interactive features users encounter daily on the web.
