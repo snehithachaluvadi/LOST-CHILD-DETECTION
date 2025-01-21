@@ -45,3 +45,22 @@ device capabilities. JavaScript's flexibility and ubiquity make it an
 essential tool for modern web development, powering many of the
 interactive features users encounter daily on the web.
 
+## NOTIFICATION
+### STMP server 
+SMTP is a communication protocol widely used for electronic
+mail (email) transmission. An SMTP server is a software application or
+hardware device responsible for sending, receiving, and relaying email
+messages between email clients and other SMTP servers.
+
+### TinyDB
+
+TinyDB is a lightweight, open-source document-oriented database
+designed for simplicity and ease of use in Python applications. It operates as a
+JSON document store, making it ideal for storing small to moderate amounts of
+data with minimal setup. With TinyDB, you can store, retrieve, and manipulate
+data using a simple API, making it a convenient choice for projects where a
+full-fledged database might be overkill. Its simplicity and flexibility make it
+popular for small-scale applications, prototyping, and educational purposes.
+
+
+
