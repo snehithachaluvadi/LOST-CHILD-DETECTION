@@ -62,5 +62,6 @@ data using a simple API, making it a convenient choice for projects where a
 full-fledged database might be overkill. Its simplicity and flexibility make it
 popular for small-scale applications, prototyping, and educational purposes.
 
+<img width="558" alt="{84FCFEE3-AE7D-4902-93E4-4FAE465A7933}" src="https://github.com/user-attachments/assets/bbdfcd7e-c9ac-419b-88da-408f7bc6ec74" />
 
 
