@@ -2,7 +2,7 @@
 
 This project proposes a solution that uses machine learning techniques, specifically structural similarity and facial recognition, to detect and identify missing children in real-time. By analysing images or video frames captured from surveillance cameras or public spaces, the system can compare the captured faces with known images of missing children. It will provide instant alerts with crucial details like location, photograph, and the time of the incident, enhancing the speed of detection and increasing the chances of safely locating the child.
 
-## STRUCTUTAL SIMILARITY
+## STRUCTURAL SIMILARITY
 A perceptual metric used to measure the similarity between two images. It is particularly useful in machine learning tasks involving image processing, computer vision, and image quality assessment. Unlike pixel-wise metrics like Mean Squared Error (MSE) or Peak Signal-to-Noise Ratio (PSNR), SSIM focuses on structural information, which is more aligned with human visual perception.
 
 ## FACIAL RECOGNITION
@@ -18,16 +18,16 @@ comparing these embeddings, the library can determine whether two faces
 belong to the same person or not.
 
 ## FRONTEND
-### HTML - HTML, or Hyper Text Markup Language, serves as the
-backbone of web development, providing the structure and organization
+### HTML - HTML, or Hyper Text Markup Language, 
+serves as the backbone of web development, providing the structure and organization
 for content on the internet. Using a system of tags and attributes, HTML
 defines the elements of a webpage, including text, images, links, and
 more. It acts as the foundation upon which websites are built, allowing
 developers to create structured and semantically meaningful documents
 that are accessible and easily interpreted by web browsers.
 
-### CSS - CSS, short for Cascading Style Sheets, complements HTML by
-adding style and visual presentation to web pages. With CSS, developers
+### CSS - CSS, short for Cascading Style Sheets, 
+complements HTML by adding style and visual presentation to web pages. With CSS, developers
 can control the layout, design, and appearance of HTML elements,
 including aspects such as colours, fonts, spacing, and responsiveness.
 By separating style from content, CSS promotes cleaner and more
@@ -44,3 +44,4 @@ experiences and responsive web applications that adapt to user input and
 device capabilities. JavaScript's flexibility and ubiquity make it an
 essential tool for modern web development, powering many of the
 interactive features users encounter daily on the web.
+
